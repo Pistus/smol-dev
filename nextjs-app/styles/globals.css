@@ -1,0 +1,34 @@
+/* Reset some basic elements */
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set up some default styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Add global styles for a header */
+header {
+  background-color: #f5f5f5;
+  height: 60px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Add global styles for a footer */
+footer {
+  background-color: #f5f5f5;
+  height: 40px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
